@@ -1,11 +1,9 @@
 const express = require('express');
 const cors = require('cors');
-const history = require('connect-history-api-fallback');
 const app = express();
 
 // Configure parsers
 app.use(cors());
-app.use(history());
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
