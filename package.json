@@ -4,7 +4,7 @@
   "description": "Create your own HubSpot Public App",
   "main": "app.js",
   "scripts": {
-    "serve": "npm run build && nodemon --watch . app.js",
+    "serve": "nodemon --watch . app.js",
     "start": "node app.js"
   },
   "author": "Yusri Mathews",
